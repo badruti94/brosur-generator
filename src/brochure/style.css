@@ -1,0 +1,105 @@
+.brochure{
+    background-color: #dcffdf;
+    width: 30rem;
+    padding: 2rem;
+    height: fit-content;
+}
+.title{
+    text-align: center;
+    color: #1b421c;
+
+}
+.title .up{
+    font-size: 1.3rem;
+    
+}
+.title .bottom{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middle-part .photo .up img{
+    width: 15rem;
+    transform: rotate(10deg);
+}
+.middle-part .photo .bottom img{
+    width: 11rem;
+    transform: rotate(-5deg);
+}
+
+.middle-part .photo img{
+    border-radius: 3%;
+    border: 0.2rem dashed #1b421c;
+}
+
+.people img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.2rem solid #1b421c;
+}
+
+.narasumber .title, .pembawa_acara .title{
+    text-align: right;
+    font-weight: bold;
+    color: #1b421c;
+    margin-bottom: 0.4rem;
+}
+.pembawa_acara{
+    margin-top: 2rem;
+}
+
+.people div div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+    color: #7dc37e;
+}
+.people div div .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+    
+}
+.people div div .name{
+    list-style-type: none;
+    margin-left: -7rem;
+}
+.people div div .name li:first-child{
+    font-weight: bold;
+}
+
+.bottom-part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.card{
+    width: 13rem;
+    background-color: rgb(221, 209, 209);
+    padding: 0.18rem 0.5rem;
+    border-radius: 10%;
+    color: #1b421c;
+}
+
+.card hr{
+    width: 75%;
+}
+.card:first-child div{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 0.05rem;
+}
+
+.bottom-part li{
+    font-size: 0.8rem;
+}
